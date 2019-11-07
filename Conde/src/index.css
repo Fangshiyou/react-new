@@ -1,0 +1,173 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.active{
+  width:100px;
+  height:100px;
+  background: black;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style: none;
+}
+.header{
+  height: 80px;
+  background-color: black;
+}
+.header header{
+  width:1200px;
+  line-height: 80px;
+  margin:0 auto;
+}
+.header input{
+  padding-top: 10px;
+  margin-left: 40px;
+}
+.header img{
+  width:120px;
+}
+.header header a{
+  margin:0 20px;
+  color: white;
+}
+body{
+  background: gray;
+}
+.content-left{
+  background: white;
+  width:900px;
+  float: left;
+}
+.content{
+  width: 1200px;
+  margin:30px auto 0;
+}
+.right1{
+  width:270px;
+  height:150px;
+  background: white;
+  margin-bottom: 20px;
+  padding:20px 0 0 10px;
+}
+.right1 button{
+  height:30px;
+  width:120px;
+  background: rgb(63, 159, 189);
+  color: white;
+  border: none;
+}
+.content-right{
+  background: gray;
+  width:270px;
+  height: 500px;
+  float: right;
+}
+.homeHeader{
+  width:900px;
+  line-height: 40px;
+  background: rgb(212, 206, 206);
+  font-size: 15px;
+}
+.homeLink{
+  color: greenyellow;
+  margin:0 20px;
+}
+.Top{
+  width:900px;
+  line-height: 40px;
+  background: rgb(238, 238, 238);
+  font-size: 15px;
+  padding-left: 20px;
+}
+.Top span{
+  color: greenyellow;
+}
+
+.loginBody{
+  width:800px;
+  height: 300px;
+  background: white;
+  padding:40px 0 0 200px;
+}
+.loginInput{
+  line-height: 30px;
+  width:500px;
+  margin-top:20px ;
+}
+.loginInput input{
+  width:300px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-left: 10px ;
+}
+.loginBut{
+  line-height: 30px;
+  width:800px;
+  margin: 30px 0 0 55px;
+}
+.loginBut button{
+  background: rgb(74, 166, 194);
+  color: white;
+  border: none;
+  width:300px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.allLi{
+  border-bottom: 0.5px solid gray;
+  line-height:50px;
+  padding:0 10px 0 10px;
+}
+.allImg{
+  width:35px;
+  height:35px;
+}
+.allImgtwo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.allSpan{
+  margin:0 10px 0 10px;
+}
+.allTitle{
+  font-size: 15px;
+  color: black;
+}
+.allTime{
+  float: right;
+}
+.allPages{
+  margin-left:20px;
+  height: 30px;
+}
+.allPages li{
+  float: left;
+  width:50px;
+  line-height:30px;
+  border: 1px solid gray;
+  border-right: none;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.allPages li:last-child{
+  border-right: 1px solid gray;
+}
