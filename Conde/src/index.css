@@ -36,7 +36,9 @@ ul,li{
   margin:0 auto;
 }
 .header input{
-  padding-top: 10px;
+  height: 40px;
+  width: 260px;
+  border: none;
   margin-left: 40px;
 }
 .header img{
