@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,EACI,SAAS,CACT,QACJ,CACA,qBACI,eACJ","file":"main.26952043.chunk.css","sourcesContent":["*{\r\n    padding:0;\r\n    margin:0;\r\n}\r\n.am-grid .am-flexbox {\r\n    background: #eeeeee;\r\n}"]}
